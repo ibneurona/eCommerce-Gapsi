@@ -60,8 +60,6 @@ const Tienda = () => {
       //console.log(res.data.products.length);
       setMyProduct(res.data.products);
     });
-
-    //handleScroll();
   },[categoria,pagesNumber]);
 
   return (
